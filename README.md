@@ -12,13 +12,11 @@ Figura 1: Proceso obtención de cambios Esquema 1: comparación post - clasifica
 Figura 2: Proceso obtención de cambios Esquema 2: detección directa.
 
 
-La zona de estudio para la cobertura de minería corresponde a un área de 327.16 km2 ubicada en 5 diferentes municipios pertenecientes al departamento de la Guajira, en esta zona hay presencia de minería a cielo abierto a gran escala la cual hace parte de la Mina del Cerrejón, la serie de tiempo de imágenes satelitales Planet de esta zona se compone de 8 imágenes ubicadas entre 2017 y 2019; para la zona de estudio asociada al proceso de los cambios por deforestación corresponde a un área de 1023.15 km2 sobre dos municipios del departamento del Meta y sobre los Parques Nacionales Naturales (PNN) Tinigua y una zona del PNN Cordilleras de los Picachos, la serie de tiempo se compone de 9 imágenes satelitales Planet obtenidas mediante el programa NICFI (Norway’s International Climate and Forests Initiative – Iniciativa Internacional de Noruega para el clima y bosques) distribuidas semestralmente entre diciembre de 2015 y diciembre de 2019. 
+La zona de estudio para la cobertura de minería corresponde a un área de 327.16 km2 ubicada en 5 diferentes municipios pertenecientes al departamento de la Guajira, en esta zona hay presencia de minería a cielo abierto a gran escala la cual hace parte de la Mina del Cerrejón, la serie de tiempo de imágenes satelitales Planet de esta zona se compone de 8 imágenes ubicadas entre 2017 y 2019. 
 
 La ejecución de todo el proceso se encuentra en su mayoría enmarcado bajo una arquitectura en la nube, haciendo uso de los recursos gratuitos provistos por Google Earth Engine, Google Colab y Google Cloud y toda la suite de herramientas que componente estos entornos y que fueron de utilidad para la automatización, entrenamiento de los modelos, almacenamiento y ejecución de las diferentes etapas que componen la metodología planteada).
 
 ## Organizacion Carpetas
-- **deforestación**: Códigos asociados al proceso de creación de muestras para los modelos, y el proceso de entrenamiento de los modelos bajo el esquema 1: U-Net y FPN para la zona de deforestación.
-- **deforestacion_m2**: Códigos asociados al proceso de creación de muestras para los modelos, y el proceso de entrenamiento de los modelos bajo el esquema 2: U-Net Modificada para la zona de deforestación.
 - **minería**: Códigos asociados al proceso de creación de muestras para los modelos, y el proceso de entrenamiento de los modelos bajo el esquema 1: U-Net y FPN para la zona de minería.
 - **mineria_M2**: Códigos asociados al proceso de creación de muestras para los modelos, y el proceso de entrenamiento de los modelos bajo el esquema 2: U-Net Modificada para la zona de minería.
 - **Validación**: Códigos para el cálculo de las medidas de exactitud para las segmentaciones obtenidas bajo el esquema 1, y los cambios obtenidos bajo los dos esquemas para las dos zonas de estudio.
